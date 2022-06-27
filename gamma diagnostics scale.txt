@@ -1,0 +1,82 @@
+[1] "overall diagnostics"
+[1] "Gelman-Rubin Statistic"
+# A tibble: 4 x 2
+  scale  Rhat
+  <dbl> <dbl>
+1  0.05  1.03
+2  0.1   1.01
+3  0.25  1.00
+4  0.5   1.00
+[1] "ess "
+# A tibble: 4 x 2
+  scale   ess
+  <dbl> <dbl>
+1  0.05  174.
+2  0.1   379.
+3  0.25  965.
+4  0.5  1806.
+[1] "at 2"
+[1] "Gelman-Rubin Statistic"
+# A tibble: 4 x 2
+  scale  Rhat
+  <dbl> <dbl>
+1  0.05  1.01
+2  0.1   1.01
+3  0.25  1.01
+4  0.5   1.00
+[1] "ess "
+# A tibble: 4 x 2
+  scale   ess
+  <dbl> <dbl>
+1  0.05  413.
+2  0.1  1316.
+3  0.25 2549.
+4  0.5  4578.
+[1] "at 24"
+[1] "Gelman-Rubin Statistic"
+# A tibble: 4 x 2
+  scale  Rhat
+  <dbl> <dbl>
+1  0.05  1.00
+2  0.1   1.01
+3  0.25  1.00
+4  0.5   1.00
+[1] "ess "
+# A tibble: 4 x 2
+  scale   ess
+  <dbl> <dbl>
+1  0.05  597.
+2  0.1   990.
+3  0.25 2640.
+4  0.5  4887.
+[1] "tempered mcmc convergence"
+[1] "at 24"
+       ess
+1 3953.396
+[1] "rhat"
+[1] 1.002636
+[1] "at 2"
+       ess
+1 8388.271
+[1] "rhat"
+[1] 1.001224
+[1] "KLD"
+# A tibble: 4 x 2
+  cflmc_scales     kld
+         <dbl>   <dbl>
+1         0.05 0.484  
+2         0.1  0.00706
+3         0.25 0.574  
+4         0.5  0.623  
+    tmcmc 
+0.6371634 
+[1] "KS"
+# A tibble: 4 x 2
+  cflmc_scales     ks
+         <dbl>  <dbl>
+1         0.05 0.0440
+2         0.1  0.0399
+3         0.25 0.0341
+4         0.5  0.0146
+         D 
+0.01770241 
